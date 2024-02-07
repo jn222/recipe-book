@@ -5,6 +5,7 @@ import { cn } from "../lib/utils"
 
 import "./globals.css"
 import Link from "next/link"
+import { Provider } from "@/components/Provider"
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
             <span className="text-4xl">recipe book 🧑‍🍳</span>
           </Link>
         </div>
+        {/* <Provider>{children}</Provider> */}
         {children}
       </body>
     </html>
