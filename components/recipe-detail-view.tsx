@@ -1,6 +1,7 @@
 import { Recipe } from "@/app/types/recipe.types"
 import { FC } from "react"
 import { Separator } from "./ui/separator"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 interface Props {
   recipe: Recipe
@@ -15,20 +16,30 @@ const RecipeDetailView: FC<Props> = ({ recipe }) => {
     <div>
       <h1 className="text-2xl fontsemibold">{recipe.title}</h1>
       <p className="opacity-60">{recipe.description}</p>
-      <Separator />
-      <h2>Ingredients</h2>
-      <ol>
-        {recipe.ingredients.map((ingredient) => (
-          <li key={ingredient}>{ingredient}</li>
-        ))}
-      </ol>
-      <Separator />
-      <h2>Steps</h2>
-      <ol>
-        {recipe.steps.map((step) => (
-          <li key={step}>{step}</li>
-        ))}
-      </ol>
+      <Tabs defaultValue="Ingredients" className="w-[400px] mt-10">
+        <TabsList>
+          <TabsTrigger value="Ingredients">Ingredients</TabsTrigger>
+          <TabsTrigger value="Steps">Steps</TabsTrigger>
+        </TabsList>
+        <TabsContent value="Ingredients">
+          <ol>
+            {recipe.ingredients.map((ingredient) => (
+              <li className="my-5" key={ingredient}>
+                {ingredient}
+              </li>
+            ))}
+          </ol>
+        </TabsContent>
+        <TabsContent value="Steps">
+          <ol>
+            {recipe.steps.map((step, index) => (
+              <li className="my-5" key={step}>
+                {index + 1}. {step}
+              </li>
+            ))}
+          </ol>
+        </TabsContent>
+      </Tabs>
     </div>
   )
 }

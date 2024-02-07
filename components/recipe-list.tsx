@@ -6,7 +6,7 @@ import { FC } from "react"
 import RecipeListItem from "./recipe-list-item"
 
 interface Props {
-  recipes: Recipe[]
+  recipes?: Recipe[]
 }
 
 /**
@@ -17,7 +17,7 @@ const RecipeList: FC<Props> = ({ recipes }) => {
   const router = useRouter()
   return (
     <div>
-      {recipes.map((recipe) => (
+      {recipes?.map((recipe) => (
         <RecipeListItem
           key={recipe.id}
           recipe={recipe}
