@@ -1,0 +1,212 @@
+[
+  {
+    "id": 0,
+    "title": "Spaghetti Bolognese",
+    "info": "Classic Italian pasta dish with rich meat sauce.",
+    "ingredients": [
+      "300g spaghetti",
+      "500g ground beef",
+      "1 finely chopped onion",
+      "2 cups tomato sauce",
+      "3 cloves minced garlic",
+      "2 tablespoons olive oil"
+    ],
+    "picture": "spaghetti_bolognese.jpg",
+    "steps": [
+      "Boil spaghetti according to package instructions.",
+      "Sauté onions and garlic in olive oil.",
+      "Add ground beef, cook until browned.",
+      "Pour in tomato sauce, simmer for 20 minutes.",
+      "Serve sauce over cooked spaghetti."
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Chicken Alfredo",
+    "info": "Creamy Alfredo sauce with grilled chicken over fettuccine pasta.",
+    "ingredients": [
+      "400g fettuccine pasta",
+      "2 grilled and sliced chicken breasts",
+      "1 cup heavy cream",
+      "1 cup grated parmesan cheese",
+      "2 tablespoons butter",
+      "2 cloves minced garlic"
+    ],
+    "picture": "chicken_alfredo.jpg",
+    "steps": [
+      "Cook fettuccine pasta as directed.",
+      "Grill seasoned chicken breast, slice into strips.",
+      "In a pan, melt butter and sauté garlic.",
+      "Pour in heavy cream, add parmesan cheese.",
+      "Combine cooked pasta, top with grilled chicken."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Vegetarian Stir-Fry",
+    "info": "Colorful and healthy stir-fry with a mix of fresh vegetables.",
+    "ingredients": [
+      "2 cups broccoli florets",
+      "2 julienned carrots",
+      "2 sliced bell peppers",
+      "1 block cubed tofu",
+      "3 tablespoons soy sauce",
+      "2 tablespoons sesame oil"
+    ],
+    "picture": "vegetarian_stir_fry.jpg",
+    "steps": [
+      "Stir-fry broccoli, carrots, and bell peppers.",
+      "Add cubed tofu, cook until golden.",
+      "Drizzle with soy sauce and sesame oil.",
+      "Toss to combine, cook for a few more minutes.",
+      "Serve hot over rice or noodles."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Margherita Pizza",
+    "info": "Classic Italian pizza with tomato, fresh mozzarella, and basil.",
+    "ingredients": [
+      "1 ball pizza dough",
+      "3 tomatoes, sliced",
+      "200g fresh mozzarella, sliced",
+      "1 cup fresh basil leaves",
+      "2 tablespoons olive oil",
+      "Salt to taste"
+    ],
+    "picture": "margherita_pizza.jpg",
+    "steps": [
+      "Roll out pizza dough on a floured surface.",
+      "Spread olive oil on the dough.",
+      "Layer sliced tomatoes, fresh mozzarella, and basil leaves.",
+      "Bake in a preheated oven until crust is golden.",
+      "Sprinkle with salt before serving."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chicken Noodle Soup",
+    "info": "Comforting soup with chicken, vegetables, and noodles.",
+    "ingredients": [
+      "4 cups chicken broth",
+      "4 bone-in chicken thighs",
+      "2 sliced carrots",
+      "2 chopped celery stalks",
+      "1 diced onion",
+      "1 cup egg noodles"
+    ],
+    "picture": "chicken_noodle_soup.jpg",
+    "steps": [
+      "Simmer chicken thighs in broth until cooked.",
+      "Add chopped carrots, celery, and onions.",
+      "Cook until vegetables are tender.",
+      "Boil egg noodles separately, add to the soup.",
+      "Season with salt and pepper, serve hot."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Caesar Salad",
+    "info": "Classic salad with romaine lettuce, croutons, and Caesar dressing.",
+    "ingredients": [
+      "1 head romaine lettuce, chopped",
+      "1 cup croutons",
+      "1/2 cup grated parmesan cheese",
+      "1 grilled and sliced chicken breast",
+      "1/4 cup Caesar dressing",
+      "1 lemon, juiced"
+    ],
+    "picture": "caesar_salad.jpg",
+    "steps": [
+      "Chop and wash romaine lettuce.",
+      "Grill seasoned chicken breast, slice it.",
+      "Toss lettuce with croutons, parmesan, and chicken.",
+      "Drizzle with Caesar dressing, squeeze lemon.",
+      "Mix well and serve."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Vegan Lentil Curry",
+    "info": "Flavorful and nutritious lentil curry with a variety of spices.",
+    "ingredients": [
+      "1 cup dried lentils",
+      "1 can coconut milk",
+      "2 diced tomatoes",
+      "1 finely chopped onion",
+      "3 cloves minced garlic",
+      "2 tablespoons curry powder"
+    ],
+    "picture": "vegan_lentil_curry.jpg",
+    "steps": [
+      "Cook lentils in coconut milk until tender.",
+      "Sauté onions and garlic until golden.",
+      "Add diced tomatoes and curry powder.",
+      "Combine with cooked lentils, simmer until flavors meld.",
+      "Serve over rice."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "BBQ Pulled Pork Sandwiches",
+    "info": "Tender pulled pork smothered in barbecue sauce, served in a bun.",
+    "ingredients": [
+      "2 kg pork shoulder",
+      "2 cups barbecue sauce",
+      "8 buns",
+      "2 cups coleslaw",
+      "1 cup sliced pickles",
+      "1/4 cup brown sugar"
+    ],
+    "picture": "bbq_pulled_pork.jpg",
+    "steps": [
+      "Rub pork shoulder with brown sugar, slow cook until tender.",
+      "Shred the cooked pork and mix with barbecue sauce.",
+      "Toast buns, spoon pulled pork onto them.",
+      "Top with coleslaw and pickles.",
+      "Serve with extra barbecue sauce on the side."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Shrimp Scampi Pasta",
+    "info": "Lemony garlic butter sauce with succulent shrimp over pasta.",
+    "ingredients": [
+      "500g peeled and deveined shrimp",
+      "400g linguine pasta",
+      "1/2 cup butter",
+      "4 cloves minced garlic",
+      "1 lemon, juiced",
+      "1/2 cup white wine"
+    ],
+    "picture": "shrimp_scampi_pasta.jpg",
+    "steps": [
+      "Cook linguine pasta al dente.",
+      "Sauté shrimp in garlic and butter until pink.",
+      "Deglaze with white wine, squeeze lemon juice.",
+      "Toss cooked pasta in the sauce.",
+      "Garnish with fresh parsley."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mushroom Risotto",
+    "info": "Creamy Italian rice dish with mushrooms, Parmesan, and white wine.",
+    "ingredients": [
+      "1 cup arborio rice",
+      "200g sliced mushrooms",
+      "1 finely chopped onion",
+      "4 cups warm vegetable broth",
+      "1/2 cup white wine",
+      "1/2 cup grated Parmesan cheese"
+    ],
+    "picture": "mushroom_risotto.jpg",
+    "steps": [
+      "Sauté onions and mushrooms in olive oil.",
+      "Add arborio rice, cook until translucent.",
+      "Pour in white wine, stir until absorbed.",
+      "Gradually add vegetable broth, stirring continuously.",
+      "Finish with Parmesan, serve hot."
+    ]
+  }
+]
