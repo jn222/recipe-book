@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Spaghetti Bolognese",
-    "info": "Classic Italian pasta dish with rich meat sauce.",
+    "description": "Classic Italian pasta dish with rich meat sauce.",
     "ingredients": [
       "300g spaghetti",
       "500g ground beef",
@@ -23,7 +23,7 @@
   {
     "id": 1,
     "title": "Chicken Alfredo",
-    "info": "Creamy Alfredo sauce with grilled chicken over fettuccine pasta.",
+    "description": "Creamy Alfredo sauce with grilled chicken over fettuccine pasta.",
     "ingredients": [
       "400g fettuccine pasta",
       "2 grilled and sliced chicken breasts",
@@ -44,7 +44,7 @@
   {
     "id": 2,
     "title": "Vegetarian Stir-Fry",
-    "info": "Colorful and healthy stir-fry with a mix of fresh vegetables.",
+    "description": "Colorful and healthy stir-fry with a mix of fresh vegetables.",
     "ingredients": [
       "2 cups broccoli florets",
       "2 julienned carrots",
@@ -65,7 +65,7 @@
   {
     "id": 3,
     "title": "Margherita Pizza",
-    "info": "Classic Italian pizza with tomato, fresh mozzarella, and basil.",
+    "description": "Classic Italian pizza with tomato, fresh mozzarella, and basil.",
     "ingredients": [
       "1 ball pizza dough",
       "3 tomatoes, sliced",
@@ -86,7 +86,7 @@
   {
     "id": 4,
     "title": "Chicken Noodle Soup",
-    "info": "Comforting soup with chicken, vegetables, and noodles.",
+    "description": "Comforting soup with chicken, vegetables, and noodles.",
     "ingredients": [
       "4 cups chicken broth",
       "4 bone-in chicken thighs",
@@ -107,7 +107,7 @@
   {
     "id": 5,
     "title": "Caesar Salad",
-    "info": "Classic salad with romaine lettuce, croutons, and Caesar dressing.",
+    "description": "Classic salad with romaine lettuce, croutons, and Caesar dressing.",
     "ingredients": [
       "1 head romaine lettuce, chopped",
       "1 cup croutons",
@@ -128,7 +128,7 @@
   {
     "id": 6,
     "title": "Vegan Lentil Curry",
-    "info": "Flavorful and nutritious lentil curry with a variety of spices.",
+    "description": "Flavorful and nutritious lentil curry with a variety of spices.",
     "ingredients": [
       "1 cup dried lentils",
       "1 can coconut milk",
@@ -149,7 +149,7 @@
   {
     "id": 7,
     "title": "BBQ Pulled Pork Sandwiches",
-    "info": "Tender pulled pork smothered in barbecue sauce, served in a bun.",
+    "description": "Tender pulled pork smothered in barbecue sauce, served in a bun.",
     "ingredients": [
       "2 kg pork shoulder",
       "2 cups barbecue sauce",
@@ -170,7 +170,7 @@
   {
     "id": 8,
     "title": "Shrimp Scampi Pasta",
-    "info": "Lemony garlic butter sauce with succulent shrimp over pasta.",
+    "description": "Lemony garlic butter sauce with succulent shrimp over pasta.",
     "ingredients": [
       "500g peeled and deveined shrimp",
       "400g linguine pasta",
@@ -191,7 +191,7 @@
   {
     "id": 9,
     "title": "Mushroom Risotto",
-    "info": "Creamy Italian rice dish with mushrooms, Parmesan, and white wine.",
+    "description": "Creamy Italian rice dish with mushrooms, Parmesan, and white wine.",
     "ingredients": [
       "1 cup arborio rice",
       "200g sliced mushrooms",

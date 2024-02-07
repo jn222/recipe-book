@@ -7,10 +7,10 @@
 
 ## Assumptions
 
-- Recipes should have a title, ingredients list, picture url, info blurb, and steps
+- Recipes should have a title, ingredients list, picture url, description blurb, and steps
   - Typing definition:
     - `title: string`
-    - `info: string`
+    - `description: string`
     - `ingredients: string[]`
     - `picture: string`
     - `steps: string[]`
