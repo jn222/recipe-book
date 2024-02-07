@@ -27,6 +27,7 @@ const RecipeList: FC<Props> = ({ recipes }) => {
           className="my-5"
         />
       ))}
+      {!recipes?.length && <h2 className="my-10">No recipes to show!</h2>}
     </div>
   )
 }
