@@ -16,7 +16,7 @@ const RecipeDetailView: FC<Props> = ({ recipe }) => {
     <div>
       <h1 className="text-2xl fontsemibold">{recipe.title}</h1>
       <p className="opacity-60">{recipe.description}</p>
-      <Tabs defaultValue="Ingredients" className="w-[400px] mt-10">
+      <Tabs defaultValue="Ingredients" className="max-w-lg mt-10">
         <TabsList>
           <TabsTrigger value="Ingredients">Ingredients</TabsTrigger>
           <TabsTrigger value="Steps">Steps</TabsTrigger>

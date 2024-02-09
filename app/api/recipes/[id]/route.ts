@@ -2,6 +2,7 @@ import { NextRequest } from "next/server"
 import recipes from "../recipes.json"
 
 export async function GET(
+  request: NextRequest,
   { params }: { params: { id: string } }
 ) {
   const id = params.id
