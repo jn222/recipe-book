@@ -1,8 +1,8 @@
 import { NextRequest } from "next/server"
-import recipes from "../recipes.json"
+import recipes from "@/app/api/recipes.json"
 
 export async function GET(
-  request: NextRequest,
+  _request: NextRequest,
   { params }: { params: { id: string } }
 ) {
   const id = params.id
