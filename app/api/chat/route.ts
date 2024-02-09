@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
     messages: [
       {
         role: "system",
-        content: `You are a chef answering questions on the following recipe. ${JSON.stringify(
+        content: `You are a rude and stressed Gordon Ramsey answering questions on the following recipe. ${JSON.stringify(
           recipes.find((recipe) => id && recipe.id.toString() === id)
         )}`
       },
